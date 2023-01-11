@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light-grayish-violet font-rubik md:grid md:place-items-center md:mx-auto">
+<main class="sm:flex md:flex-row md:items-center md:w-[70%] md:justify-center md:gap-[7em] md:ml-[4em]">
+
+    <!-- mobile section -->
+
+    <section class="h-[100vh] relative z-10 flex items-center">
+        <div class="w-[260px] h-[552px] mx-auto bg-light-grayish-violet rounded-3xl shadow-lg border-[10px] border-white border-solid overflow-hidden">
+
+                    <!-- App navigation section container -->
+
+                <div class="w-full  bg-gradient-to-r from-light-violet to-light-magenta rounded-b-md">
+                    
+                    <!-- App Head Section -->
+                    <div class="w-[60%] h-[20px] bg-white mx-auto rounded-b-2xl"></div>
+                    <div class="w-full flex items-center gap-2 px-3 py-3">
+                        <svg class="rotate-90 fill-white" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#f5f3f7" stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+                        <img class="w-7 h-7 rounded-full border-[1px] border-light-grayish-violet" src="../images/avatar.jpg" alt="avatar">
+                        <div class="">
+                            <h2 class="text-[0.8rem] font-medium text-light-grayish-violet">Samuel Green</h2>
+                            <p class="text-[0.55rem] text-pale-violet font-medium">Available to Walk</p>
+                        </div>
+
+                        <!-- Overflow Menu -->
+
+                        <div class="ml-16">
+                            <span class="w-[2px] h-[2px] rounded-full block bg-light-grayish-violet mb-[2px]"></span>
+                            <span class="w-[2px] h-[2px] rounded-full block bg-light-grayish-violet mb-[2px]"></span>
+                            <span class="w-[2px] h-[2px] rounded-full block bg-light-grayish-violet"></span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- App chat container -->
+
+                <div>
+                    <div class="px-3 py-3"> 
+                        <span class="bg-desaturated-dark-violet/20 text-moderate-violet text-[.5rem] block w-[60%]  py-2 px-2 rounded-xl rounded-bl">That sounds great. I’d be happy with that.</span>
+                        <span class="bg-desaturated-dark-violet/20 text-moderate-violet text-[.5rem] block w-[60%]  mt-2 py-2 px-2 rounded-xl rounded-bl">Could you send over some pictures of your dog, please?</span>
+                      </div>
+                      
+                    <div class="flex pl-[5.7em] mt-4">
+                        <img class="rounded-xl w-10 h-10 mr-2" src="../images/dog-image-1.jpg" alt="dog">
+                        <img class="rounded-xl w-10 h-10 mr-2" src="../images/dog-image-2.jpg" alt="dog">
+                        <img class="rounded-xl w-10 h-10" src="../images/dog-image-3.jpg" alt="dog">
+                    </div>
+                    <span class="mt-3 ml-[11.7em] bg-white text-desaturated-dark-violet shadow-lg text-[.5rem] block w-[55%]  py-1 px-2 rounded-xl rounded-br">Here are a few pictures. She’s a happy girl!</span>
+                    <span class="mt-3 ml-[15.7em] bg-white text-desaturated-dark-violet shadow-lg text-[.5rem] block w-[40%] py-1 px-2 rounded-xl rounded-br">Can you make it?</span>
+                </div>
+
+                <div class="px-3 py-3">
+                    <span class="mt-3 bg-desaturated-dark-violet/20 text-moderate-violet text-[.5rem] block w-[60%]  mt-2 py-2 px-2 rounded-xl rounded-bl">She looks so happy! The time we discussed works. How long shall I take her out for?</span>
+                    <div class="flex items-center justify-between mt-2 bg-gradient-to-l from-light-violet to-light-magenta text-very-dark-desaturated-violet text-[.5rem] block w-[80%]  py-2 pl-2 pr-3 rounded-xl rounded-bl">
+                        <div class="flex items-center justify-center gap-2">
+                            <span class="w-3 h-3 border-[1px] border-solid border-pale-violet rounded-xl"></span>
+                            <p class="text-white">30 minute walk</p>
+                        </div>
+                        <p class="text-xs text-white font-medium">$29</p>
+                    </div>
+
+                    <div class="flex items-center justify-between mt-2 bg-gradient-to-l from-light-violet to-light-magenta text-very-dark-desaturated-violet text-[.5rem] block w-[80%]  py-2 pl-2 pr-3 rounded-xl rounded-bl">
+                        <div class="flex items-center justify-center gap-2">
+                            <span class="w-3 h-3 border-[1px] border-solid border-pale-violet rounded-xl"></span>
+                            <p class="text-white">1 hour walk</p>
+                        </div>
+                        <p class="text-xs text-white font-medium">$49</p> 
+                    </div>
+                    <form action="#" class="w-full h-9 mt-2 flex items-center justify-between bg-white rounded-3xl  pr-1 pl-2" method="get">
+                        <label for="text" class="sr-only">message</label>
+                        <input type="text" id="text" class="rounded-3xl px-3 bg-transparent text-very-dark-desaturated-violet text-[.8rem] placeholder:text-[.6rem] placeholder:text-grayish-blue border-0 outline-none" placeholder="Type a message…">
+                        <button type="button" class="w-7 h-7 rounded-3xl bg-very-dark-desaturated-violet flex items-center justify-center">
+                            <svg class="-rotate-90 rounded-full" xmlns="http://www.w3.org/2000/svg" width="10" height="7"><path fill="none" stroke="#f5f3f7" stroke-width="2" d="M1 1l4 4 4-4"/></svg>
+                        </button>
+                    </form>
+                  </div>
+    </div>
+    </section>
+    
+    <!-- text content -->
+    <section class="h-[70vh] md:w-[55%] px-12 flex flex-col items-center md:pt-[12.2em] z-10">
+        <div>
+            <h1 class="text-very-dark-desaturated-violet font-medium text-4xl text-center md:text-left md:text-5xl">
+                Simple booking
+            </h1>
+            <p class=" text-sm text-center md:text-left  md:text-[17px] text-dark-grayish-violet mt-5 leading-6 md:leading-8">
+                Stay in touch with our dog walkers through the chat interface. This makes it easy to
+                discuss arrangements and make bookings. Once the walk has been completed you can rate
+                your walker and book again all through the chat.
+            </p>
+        </div>
+    </section>
+</main>
+
+    <!-- background-shape -->
+    <div class="w-[50%] h-[70%] bg-gradient-to-t from-light-violet to-light-magenta py-10 absolute top-0 left-0 z-0 rounded-br-full
+    md:w-[500px] md:h-[90%] md:rounded-b-full md:-ml-[7em]"></div>
+
+    <div class="w-[50%] h-[70%] bg-grayish-blue/10 py-10 absolute bottom-0 right-0 md:z-0
+    md:w-[500px] md:h-[90%] md:rounded-t-full md:-mr-[7em]"></div>
+
+    <!-- Attribution -->
+  <div class="attribution mt-16 md:mt-8 md:pb-4">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Umeokoli Victor Onyeka</a>.
+  </div>
+</body>
+</html>
